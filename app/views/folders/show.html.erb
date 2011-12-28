@@ -1,0 +1,4 @@
+<h1><%= @object.name %></h1>
+<ul id="assets">
+  <%= render(:partial => '/assets/asset', :collection => @object.assets) %>
+</ul>
